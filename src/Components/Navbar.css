@@ -1,0 +1,53 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 2rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.menubar_names{
+    width: 30%;
+}
+.options_name{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.nav__list{
+    text-decoration: none;
+}
+.menubar_list{
+    list-style: none;
+}
+.nav__link{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.nav__link:link{
+    color: white;
+}
+.nav__link:visited{
+    
+    color: white;
+}
+.nav__link:active{
+    color: white;
+}
+.nav__link:hover{
+    color: white;
+
+}
+.contact__btn{
+    padding: 1rem 1.5rem;
+    background-color: white;
+    color: black !important;
+    border-radius: 100px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-family: 'Fraunces', serif;
+}
