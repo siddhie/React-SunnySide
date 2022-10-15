@@ -6,6 +6,7 @@ import Navbar from "./Components/Navbar";
 import Cupsection from "./Components/Cupsection";
 import Testimonial from "./Components/Testimonial";
 import Fourimages from "./Components/Fourimages";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Lichisection />
       <Testimonial />
       <Fourimages />
+      <Footer />
     </div>
   );
 }
