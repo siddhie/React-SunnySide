@@ -1,0 +1,33 @@
+.four__images{
+    display: flex;
+    min-width: 100vw;
+    height: 30rem;
+    
+}
+.four_img{
+    height: 100%;
+    width: 100%;
+
+}
+.footer{
+    background-color: hsl(168, 34%, 41%);
+    padding: 4rem;
+    height: 20rem;
+}
+.container__footer{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+.footer__list{
+    display: flex;
+   gap: 3rem;
+}
+li{
+    list-style: none;
+}
+.footernav__link{
+    text-decoration: none;
+}
