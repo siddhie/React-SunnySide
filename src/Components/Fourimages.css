@@ -9,3 +9,20 @@
     width: 100%;
 
 }
+
+@media only screen and (max-width: 1140px) {
+  
+    .four__images{
+   
+        height: 25rem;
+        
+    }
+  }
+  @media only screen and (max-width: 1024px) {
+  
+    .four__images{
+   
+        height: 20rem;
+        
+    }
+  }

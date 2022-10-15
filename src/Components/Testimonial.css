@@ -58,3 +58,13 @@
     text-transform: uppercase;
     letter-spacing: 0.3rem;
 }
+
+
+@media only screen and (max-width: 1140px) {
+  
+#testimonial__section{
+    padding: 5rem 5rem;
+  
+    
+} 
+  }
