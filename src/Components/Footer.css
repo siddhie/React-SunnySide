@@ -32,6 +32,7 @@ li{
     color: hsl(167, 40%, 24%)
 }
 .social__icons{
+    margin-top: 3rem;
     display: flex;
     flex-direction: row;
     gap:1.8rem;
