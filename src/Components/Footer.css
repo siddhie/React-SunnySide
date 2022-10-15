@@ -1,7 +1,10 @@
 .footer{
-    /* color: black; */
-    background-color: hsl(168, 34%, 41%);
-    /* background-color: #2C7566; */
+
+    background-color: hwb(168 27% 45%);
+    /* background-color: #84eed9;
+    background-color: #62ada0; */
+    background-color: #77d3c3;
+  
     padding: 4rem;
     height: 20rem;
 }
@@ -21,4 +24,16 @@ li{
 }
 .footernav__link{
     text-decoration: none;
+    color:  hsl(167, 40%, 24%);
+    font-size: 1rem;
+}
+.footer_icon{
+    font-size: 1.2rem;
+    color: hsl(167, 40%, 24%)
+}
+.social__icons{
+    display: flex;
+    flex-direction: row;
+    gap:1.8rem;
+    cursor: pointer;
 }
