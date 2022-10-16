@@ -31,6 +31,15 @@ export default function Navbar() {
           </li>
         </ul>
       </div>
+
+      <div className="hidden  ">
+        <li>
+          {" "}
+          <a>
+            <i class="menubar__lines color uil uil-bars"></i>
+          </a>{" "}
+        </li>
+      </div>
     </nav>
   );
 }

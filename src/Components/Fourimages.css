@@ -26,3 +26,30 @@
         
     }
   }
+  @media only screen and (max-width: 910px) {
+  
+    .four__images{
+   
+        height: 18rem;
+        
+    }
+  }
+  @media only screen and (max-width: 790px) {
+  
+    .four__images{
+   
+        height: 16rem;
+        
+    }
+  }
+  @media (min-width: 480px) and (max-width: 650px) {
+  
+  
+   
+   .four__images{
+   
+    height: 10rem;
+    
+}
+  }
+

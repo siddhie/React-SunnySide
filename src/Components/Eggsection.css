@@ -1,58 +1,83 @@
-.section__egg{
-    display: flex;
-  }
-.white_section{
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-     align-items: flex-start;
-
-
-    gap: 2rem;
-    padding: 0 11rem;
-    /* background-color: aqua !important; */
-    
-    
-} 
-.section_two_part_two, .section_two_part_one{
-    width: 50%;
-    
-  }
-
-
-  .heading__style{
-    font-family: 'Fraunces', serif;
-    font-size: 2rem;
-    padding: 0 1rem 0 0;
-    color:  hsl(212, 27%, 19%);
-    
-
-  }
-  
-
-  .egg_yellow_img{
-    width: 100%;
-    height: 100%;
+.section__egg {
+  display: flex;
 }
-.learn__more{
-    color:  hsl(212, 27%, 19%);
-    font-family: 'Fraunces', serif;
-    text-transform: uppercase;
+.white_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 
+  gap: 2rem;
+  padding: 0 11rem;
+  /* background-color: aqua !important; */
+}
+.section_two_part_two,
+.section_two_part_one {
+  width: 50%;
 }
 
-.para__style{
+.heading__style {
+  font-family: "Fraunces", serif;
+  font-size: 2rem;
+  padding: 0 1rem 0 0;
+  color: hsl(212, 27%, 19%);
+}
 
-    font-size: 0.9rem;
+.egg_yellow_img {
+  width: 100%;
+  height: 100%;
+}
+.learn__more {
+  color: hsl(212, 27%, 19%);
+  font-family: "Fraunces", serif;
+  text-transform: uppercase;
+}
+
+.para__style {
+  font-size: 0.9rem;
+  font-weight: 100;
+  color: hsl(232, 10%, 55%);
+  line-height: 1.5rem;
+}
+
+@media only screen and (max-width: 1140px) {
+  .white_section {
+    padding: 0 7rem;
+  }
+}
+@media only screen and (max-width: 910px) {
+  .white_section {
+    padding: 0 5rem;
+  }
+}
+@media only screen and (max-width: 790px) {
+  .white_section {
+    padding: 3rem 4rem;
+  }
+}
+@media (min-width: 480px) and (max-width: 650px) {
+  .white_section {
+    padding: 2rem 1rem;
+  }
+  .para__style {
+    font-size: 0.7rem;
     font-weight: 100;
     color: hsl(232, 10%, 55%);
-    line-height: 1.5rem;
+    line-height: 1.2rem;
+  }
+  .heading__style {
+    font-size: 1.3rem;
+  }
 }
- 
-@media only screen and (max-width: 1140px) {
-  .white_section{
 
-    padding: 0 7rem;
-  } 
+@media (max-width: 480px) {
+  .section__egg {
+    flex-wrap: wrap;
+  }
+  .section_two_part_two,
+  .section_two_part_one {
+    /* width: 50%; */
+    width: 1000px;
+    flex-grow: 1;
+  }
 }

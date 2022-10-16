@@ -6,8 +6,13 @@ export default function Cupsection() {
     <section className="section__egg">
       <div className="section_two_part_two">
         <img
-          className="egg_yellow_img"
+          className="egg_yellow_img  image__pc"
           src="images/desktop/image-stand-out.jpg"
+          alt=""
+        />
+        <img
+          className="egg_yellow_img  image__mobile"
+          src="images/mobile/image-stand-out.jpg"
           alt=""
         />
       </div>
