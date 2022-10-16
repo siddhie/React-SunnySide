@@ -13,7 +13,7 @@ export default function Header() {
       <img
         src="images/mobile/image-header.jpg"
         alt="header_backgroundImage"
-        className="header__image image__mobile"
+        className="header__image image__mobile lemon__height"
       />
       {/* <svg width="36" height="114" xmlns="http://www.w3.org/2000/svg">
         <g
