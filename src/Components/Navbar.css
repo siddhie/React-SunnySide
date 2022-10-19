@@ -56,25 +56,16 @@
 
 /* media queries */
 @media only screen and (max-width: 1140px) {
-  body {
-    background-color: pink;
-  }
   .menubar_names {
     width: 40%;
   }
 }
 @media only screen and (max-width: 840px) {
-  body {
-    background-color: pink;
-  }
   .menubar_names {
     width: 52%;
   }
 }
 @media only screen and (max-width: 651px) {
-  body {
-    background-color: pink;
-  }
   .menubar_names {
     width: 60%;
   }
@@ -94,10 +85,6 @@
 }
 
 @media (max-width: 480px) {
-  body {
-    background-color: aquamarine;
-  }
-
   .menubar_names {
     display: none;
   }
@@ -109,7 +96,7 @@
     color: white;
   }
   .menubar__lines {
-    font-size: 1.5rem;
+    font-size: 2rem;
     cursor: pointer;
   }
 }

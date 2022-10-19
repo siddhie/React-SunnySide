@@ -1,49 +1,21 @@
 .four__images {
   display: flex;
-  /* min-width: 100vw; */
-
-  height: 26rem !important;
+  justify-content: space-between;
+  background-color: aqua;
+  flex-wrap: wrap;
 }
+
+.img_div {
+  width: 25%;
+}
+
 .four_img {
   height: 100%;
   width: 100%;
 }
 
-@media only screen and (max-width: 1140px) {
-  .four__images {
-    height: 25rem;
-  }
-}
-@media only screen and (max-width: 1024px) {
-  .four__images {
-    height: 20rem;
-  }
-}
-@media only screen and (max-width: 910px) {
-  .four__images {
-    height: 18rem;
-  }
-}
-@media only screen and (max-width: 790px) {
-  .four__images {
-    height: 16rem;
-  }
-}
-@media (min-width: 480px) and (max-width: 650px) {
-  .four__images {
-    height: 10rem;
-  }
-}
-
 @media (max-width: 480px) {
-  .four__images {
-    flex-wrap: wrap;
-    height: 20rem;
-  }
-  .four_img {
-    flex-grow: 2;
-    flex-shrink: 2;
-    width: 200px;
-    /* width: 50%; */
+  .img_div {
+    width: 50%;
   }
 }

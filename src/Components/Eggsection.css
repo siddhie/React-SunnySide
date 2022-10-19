@@ -19,6 +19,7 @@
 .heading__style {
   font-family: "Fraunces", serif;
   font-size: 2rem;
+
   padding: 0 1rem 0 0;
   color: hsl(212, 27%, 19%);
 }
@@ -76,8 +77,23 @@
   }
   .section_two_part_two,
   .section_two_part_one {
-    /* width: 50%; */
     width: 1000px;
     flex-grow: 1;
+  }
+  .white_section {
+    padding: 7rem 3.5rem;
+    align-items: center;
+    text-align: center;
+  }
+  .para__style {
+    font-size: 1.1rem;
+    font-weight: 100;
+    color: hsl(232, 10%, 55%);
+    line-height: 1.7rem;
+  }
+
+  .heading__style {
+    font-weight: 900;
+    font-size: 2rem;
   }
 }

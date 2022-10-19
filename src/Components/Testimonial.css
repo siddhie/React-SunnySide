@@ -95,14 +95,29 @@
     gap: 5rem;
   }
   .client_para_design {
-    padding: 0 5rem;
+    padding: 1 5rem;
     margin-bottom: 2rem;
+    font-size: 1.1rem;
+    line-height: 1.9rem;
+    font-weight: 900;
   }
   .testimonials {
     gap: 3rem;
   }
 
+  .client__name_design {
+    font-size: 1.3rem;
+    font-weight: 900;
+  }
+  .client__title_design {
+    font-size: 0.9rem;
+  }
   .client_img_design {
+    margin-bottom: 2rem;
+  }
+  .client_test_heading {
+    text-align: center;
+    font-size: 1.1rem;
     margin-bottom: 2rem;
   }
 }
