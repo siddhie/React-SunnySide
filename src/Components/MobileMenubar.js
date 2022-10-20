@@ -5,16 +5,16 @@ export default function MobileMenubar() {
   return (
     <div className="mobile__menubar">
       <li>
-        <a>About</a>
+        <a className="nav__links__mobile">About</a>
       </li>
       <li>
-        <a>Services</a>
+        <a className="nav__links__mobile">Services</a>
       </li>
       <li>
-        <a>Projects</a>
+        <a className="nav__links__mobile">Projects</a>
       </li>
       <li>
-        <a>CONTACT</a>
+        <a className="nav__links__mobile">CONTACT</a>
       </li>
     </div>
   );

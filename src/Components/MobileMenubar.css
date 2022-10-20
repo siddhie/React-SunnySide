@@ -16,4 +16,9 @@
     left: 50%;
     transform: translate(-60%, -50%);
   }
+  .nav__links__mobile {
+    text-decoration: none;
+    color: gray;
+    cursor: pointer;
+  }
 }
