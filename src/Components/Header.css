@@ -59,13 +59,15 @@
   }
   .image__mobile {
     display: inline-block;
-    /* display: block; */
   }
   .image__pc {
     display: none;
   }
   .main__heading {
-    font-size: 1.9rem;
+    font-size: 1rem;
+    top: 1rem;
+    left: auto;
+    right: auto;
   }
 
   .header {
