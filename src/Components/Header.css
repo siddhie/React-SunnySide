@@ -56,8 +56,6 @@
 @media (max-width: 480px) {
   .main__heading {
     font-size: 2rem;
-    /* top: 0; */
-    /* letter-spacing: 10px; */
   }
   .image__mobile {
     display: inline-block;
@@ -67,9 +65,11 @@
     display: none;
   }
   .main__heading {
-    font-size: 1.7rem;
+    font-size: 1.9rem;
   }
+
   .header {
+    position: relative;
     text-align: center;
   }
 }

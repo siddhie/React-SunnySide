@@ -7,6 +7,7 @@ import Cupsection from "./Components/Cupsection";
 import Testimonial from "./Components/Testimonial";
 import Fourimages from "./Components/Fourimages";
 import Footer from "./Components/Footer";
+import MobileMenubar from "./Components/MobileMenubar";
 
 function App() {
   return (
