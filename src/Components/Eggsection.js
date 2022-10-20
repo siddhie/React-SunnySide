@@ -3,7 +3,7 @@ import "./Eggsection.css";
 
 export default function Eggsection() {
   return (
-    <section className="section__egg">
+    <section className="section__egg" id="about">
       <div className="section_two_part_one white_section">
         <h1 className="heading__style">Transform your brand</h1>
         <p className="para__style">

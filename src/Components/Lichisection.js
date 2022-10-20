@@ -3,7 +3,7 @@ import "./Lichisection.css";
 
 export default function Cupsection() {
   return (
-    <section className="lichi_orange__section">
+    <section className="lichi_orange__section" id="services">
       <div id="lichibox" className="lichi__box">
         <div className="graphic__design same__content_design">
           <h1 className="heading__graphic_design">Graphic design</h1>

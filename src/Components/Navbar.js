@@ -30,16 +30,24 @@ export default function Navbar() {
         <div className="menubar_names">
           <ul className="options_name">
             <li className="menubar_list">
-              <a className="nav__link">About</a>
+              <a className="nav__link" href="#about">
+                About
+              </a>
             </li>
             <li className="menubar_list">
-              <a className="nav__link">Services</a>
+              <a className="nav__link" href="#services">
+                Services
+              </a>
             </li>
             <li className="menubar_list">
-              <a className="nav__link">Projects</a>
+              <a className="nav__link" href="#testimonial__section">
+                Projects
+              </a>
             </li>
             <li className="menubar_list ">
-              <a className="nav__link  contact__btn">CONTACT</a>
+              <a className="nav__link  contact__btn" href="#footer">
+                CONTACT
+              </a>
             </li>
           </ul>
         </div>
