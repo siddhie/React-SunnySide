@@ -72,7 +72,10 @@
 }
 
 @media (max-width: 480px) {
-  .section__egg {
+  .section__egg_wrap {
+    flex-wrap: wrap-reverse;
+  }
+  .section__cup {
     flex-wrap: wrap;
   }
   .section_two_part_two,

@@ -3,7 +3,7 @@ import "./Eggsection.css";
 
 export default function Cupsection() {
   return (
-    <section className="section__egg">
+    <section className="section__egg section__cup">
       <div className="section_two_part_two">
         <img
           className="egg_yellow_img  image__pc"
