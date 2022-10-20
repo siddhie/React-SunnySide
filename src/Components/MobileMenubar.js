@@ -14,7 +14,9 @@ export default function MobileMenubar() {
         <a className="nav__links__mobile">Projects</a>
       </li>
       <li>
-        <a className="nav__links__mobile">CONTACT</a>
+        <button className="nav__links__mobile btn__contact_mobile">
+          CONTACT
+        </button>
       </li>
     </div>
   );
