@@ -16,7 +16,12 @@ export default function Header() {
         alt="header_backgroundImage"
         className="header__image image__mobile lemon__height"
       />
-      {/* <svg width="36" height="114" xmlns="http://www.w3.org/2000/svg">
+      <svg
+        className="arrow"
+        width="36"
+        height="114"
+        xmlns="http://www.w3.org/2000/svg"
+      >
         <g
           stroke="#FFF"
           stroke-width="6"
@@ -27,8 +32,7 @@ export default function Header() {
         >
           <path d="M18 3v100M3 95.484l15 15 15-15" />
         </g>
-      </svg> */}
-      {/* <MobileMenubar /> */}
+      </svg>
     </div>
   );
 }
