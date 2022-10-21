@@ -46,22 +46,22 @@ export default function Footer() {
 
         <div className="social__icons">
           <li>
-            <a>
+            <a href="https://www.facebook.com" target="__blank">
               <i className="footer_icon uil uil-facebook"></i>
             </a>
           </li>
           <li>
-            <a>
+            <a href="https://www.instagram.com" target="__blank">
               <i className="footer_icon uil uil-instagram"></i>
             </a>
           </li>
           <li>
-            <a>
+            <a href="https://www.twitter.com" target="__blank">
               <i className=" footer_icon uil uil-twitter"></i>
             </a>
           </li>
           <li>
-            <a>
+            <a href="https://www.github.com" target="__blank">
               <i className=" footer_icon  uil uil-github"></i>
             </a>
           </li>
