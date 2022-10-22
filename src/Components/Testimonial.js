@@ -11,7 +11,7 @@ export default function Testimonial() {
             <img
               className="client_img_design"
               src="images/image-emily.jpg"
-              alt=""
+              alt="image-emily"
             />
             <p className="client_para_design">
               We put our trust in Sunnyside and they delivered, making sure our
@@ -25,7 +25,7 @@ export default function Testimonial() {
             <img
               className="client_img_design"
               src="images/image-thomas.jpg"
-              alt=""
+              alt="image-thomas"
             />
             <p className="client_para_design">
               Sunnyside’s enthusiasm coupled with their keen interest in our
@@ -39,7 +39,7 @@ export default function Testimonial() {
             <img
               className="client_img_design"
               src="images/image-jennie.jpg"
-              alt=""
+              alt="image-jennie"
             />
             <p className="client_para_design">
               Incredible end result! Our sales increased over 400% when we

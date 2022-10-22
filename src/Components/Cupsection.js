@@ -8,12 +8,12 @@ export default function Cupsection() {
         <img
           className="egg_yellow_img  image__pc"
           src="images/desktop/image-stand-out.jpg"
-          alt=""
+          alt="Image_stand_out"
         />
         <img
           className="egg_yellow_img  image__mobile"
           src="images/mobile/image-stand-out.jpg"
-          alt=""
+          alt="Image_stand_out"
         />
       </div>
       <div className="section_two_part_one white_section">

@@ -6,7 +6,7 @@ export default function Footer() {
     <footer id="footer" className="footer">
       <section className="container__footer">
         <div className="logo_footer ">
-          <a href="">
+          <a>
             <svg
               className="logo__footer"
               width="124"

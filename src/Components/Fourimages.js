@@ -8,48 +8,48 @@ export default function Fourimages() {
         <img
           className="four_img image__pc  "
           src="images/desktop/image-gallery-milkbottles.jpg"
-          alt=""
+          alt="image-gallery-milkbottles"
         />
         <img
           className="four_img image__mobile   "
           src="images/mobile/image-gallery-milkbottles.jpg"
-          alt=""
+          alt="image-gallery-milkbottles"
         />
       </div>
       <div className=" img_div ">
         <img
           className="four_img image__pc"
           src="images/desktop/image-gallery-orange.jpg"
-          alt=""
+          alt="image-gallery-orange"
         />
         <img
           className="four_img image__mobile  "
           src="images/mobile/image-gallery-orange.jpg"
-          alt=""
+          alt="image-gallery-orange"
         />
       </div>
       <div className=" img_div">
         <img
           className="four_img image__pc"
           src="images/desktop/image-gallery-cone.jpg"
-          alt=""
+          alt="image-gallery-cone"
         />
         <img
           className="four_img image__mobile  "
           src="images/mobile/image-gallery-cone.jpg"
-          alt=""
+          alt="image-gallery-cone"
         />
       </div>
       <div className=" img_div">
         <img
           className="four_img image__pc  "
           src="images/desktop/image-gallery-sugarcubes.jpg"
-          alt=""
+          alt="image-gallery-sugarcubes"
         />
         <img
           className="four_img image__mobile "
           src="images/mobile/image-gallery-sugar-cubes.jpg"
-          alt=""
+          alt="image-gallery-sugarcubes"
         />
       </div>
     </section>

@@ -17,12 +17,12 @@ export default function Eggsection() {
         <img
           className="egg_yellow_img image__pc"
           src="images/desktop/image-transform.jpg"
-          alt=""
+          alt="image-transform"
         />
         <img
           className="egg_yellow_img image__mobile"
           src="images/mobile/image-transform.jpg"
-          alt=""
+          alt="image-transform"
         />
       </div>
     </section>
