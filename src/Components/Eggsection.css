@@ -1,5 +1,6 @@
 .section__egg {
   display: flex;
+  margin-top: -3px;
 }
 .white_section {
   display: flex;
