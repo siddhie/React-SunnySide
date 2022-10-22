@@ -131,4 +131,7 @@
     font-weight: 900;
     font-size: 2rem;
   }
+  .section__egg {
+    margin-top: -4px;
+  }
 }
