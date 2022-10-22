@@ -11,7 +11,7 @@ export default function Eggsection() {
           grow fast. Engage your clients through compelling visuals that do most
           of the marketing for you.
         </p>
-        <p className="learn__more">Learn more</p>
+        <p className="learn__more learn__more__egg">Learn more</p>
       </div>
       <div className="section_two_part_two">
         <img

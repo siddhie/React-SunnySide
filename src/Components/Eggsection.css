@@ -32,6 +32,37 @@
   color: hsl(212, 27%, 19%);
   font-family: "Fraunces", serif;
   text-transform: uppercase;
+  text-decoration: none;
+  position: relative;
+  /* This is the reference for the after psuedo-element */
+}
+/* for border */
+.learn__more:after {
+  cursor: pointer;
+  content: "";
+  position: absolute;
+  left: -3px;
+  bottom: -1px;
+  width: 100%;
+  height: 0px; /* Height of border */
+  border-radius: 5rem;
+  z-index: -1;
+}
+.learn__more__egg:after {
+  border: 4px solid #feefbf;
+  background-color: #feefbf;
+}
+.learn__more__egg:hover::after {
+  border-color: #fed201;
+  background-color: #fed201;
+}
+.learn__more__cup:after {
+  border: 4px solid #ffdad3;
+  background-color: #ffdad3;
+}
+.learn__more__cup:hover::after {
+  border-color: #ff7766;
+  background-color: #ff7766;
 }
 
 .para__style {

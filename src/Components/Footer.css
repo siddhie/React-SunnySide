@@ -26,6 +26,9 @@ li {
   color: hsl(167, 40%, 24%);
   font-size: 1rem;
 }
+.footer_icon:hover {
+  color: white;
+}
 .footer_icon {
   font-size: 1.5rem;
   color: hsl(167, 40%, 24%);
@@ -36,6 +39,9 @@ li {
   flex-direction: row;
   gap: 1.8rem;
   cursor: pointer;
+}
+.footernav__link:hover {
+  color: white;
 }
 
 @media (max-width: 480px) {

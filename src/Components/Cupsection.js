@@ -23,7 +23,7 @@ export default function Cupsection() {
           photographers, videographers, and copywriters, we’ll build and extend
           your brand in digital places.
         </p>
-        <p className="learn__more">Learn more</p>
+        <p className="learn__more  learn__more__cup">Learn more</p>
       </div>
     </section>
   );
